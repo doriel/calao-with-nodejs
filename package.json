@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/doriel/calao-with-nodejs/issues"
   },
-  "homepage": "https://github.com/doriel/calao-with-nodejs#readme"
+  "homepage": "https://github.com/doriel/calao-with-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
