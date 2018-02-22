@@ -18,11 +18,11 @@ Recreating "Kallun" with Nodejs and MongoDB. Kallun was an online dictionary of 
 
 2 - Fork and clone this repository
 
-   git clone git@github.com/doriel/calao-with-nodejs
+	git clone git@github.com/doriel/calao-with-nodejs
 
 3 - Create a new branch for the specific feature or fix that you'll work on
 
-   git checkout -b feature-x
+	git checkout -b feature-x
    
 4 - After the wise commits from your side, create a new pull request and we will review your contribution. 
 
