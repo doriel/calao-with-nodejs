@@ -19,10 +19,9 @@ app.get('/', (req, res) => {
 
 	User.findAll()
 	.then((admins) => {
-		console.log(admins)
+		res.json(admins);
 	});
 
-	res.send('OK');
 });
 
 // Listen express application to server port
@@ -30,3 +29,5 @@ let port = 3000;
 app.listen(port, () => {
 	console.log(`The application is up and running in the ${port} port.`);
 });
+
+module.exports = app;
